@@ -48,10 +48,12 @@
 
 ## 📊 대시보드 예시
 
-<p align="center">
-  <img src="./assets/01.png" width="45%">
-  <img src="./assets/02.png" width="45%">
-</p>
+### 📌 요약 카드
+![요약 카드](./assets/01.png)
+
+### 📈 예측 그래프
+![예측 그래프](./assets/02.png)
+
 ---
 
 ## 🧑‍💻 팀 정보
