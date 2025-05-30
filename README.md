@@ -50,7 +50,7 @@
 
 <p align="center">
   <img src="assets/01.png" width="45%">
-  <img src="assets/02.png" width="45%">
+  <img src="assets/01.png" width="45%">
 </p>
 
 ---
