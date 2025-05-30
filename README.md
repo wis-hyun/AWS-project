@@ -1,6 +1,6 @@
 # ⚙️ 스마트팩토리 에너지 예측 대시보드
 
-> **전력 소비량 · 요금 · 탄소 배출량을 한눈에 예측하고 모니터링하세요.**
+> **전력 소비량 · 요금 · 탄소 배출량을 한눈에 예측하고 모니터링**
 
 ---
 
@@ -8,9 +8,9 @@
 
 본 프로젝트는 공장 이벤트/작업 시점에 발생하는 **전력 소비량**, **전기 요금**, **탄소 배출량**을 예측하여 시각적으로 제공하는 **AI 기반 에너지 관리 대시보드**입니다.
 
-- 시계열 예측 모델 (LSTM, RNN, ARIMA 등)을 사용하여 **실시간 추이 예측** 및 과거/미래 비교가 가능합니다.
-- 이상치 탐지 기능을 통해 **비정상적인 소비 패턴 식별** 및 경고가 가능합니다.
-- 예측 지표는 **전력(kWh), 요금(₩), 탄소 배출량(kgCO₂)**로 구성되어 있으며, MAE 기준의 정확도를 함께 제공합니다.
+- 시계열 예측 모델 (LSTM, RNN, ARIMA 등)을 사용하여 **실시간 추이 예측** 및 과거/미래 비교
+- 이상치 탐지 기능을 통해 **비정상적인 소비 패턴 식별** 및 경고
+- 예측 지표는 **전력(kWh), 요금(₩), 탄소 배출량(kgCO₂)**로 구성되어 있으며, MAE 기준의 정확도를 사용
 
 ---
 
@@ -48,10 +48,10 @@
 
 ## 📊 대시보드 예시
 
-| 요약 카드 | 예측 vs 실제 비교 | MAE 지표 |
-|-----------|------------------|-----------|
-| ![요약 카드](./assets/dashboard_summary.png) | ![예측 그래프](./assets/prediction_vs_actual.png) | ![MAE 그래프](./assets/mae_metrics.png) |
-
+<p align="center">
+  <img src="./assets/01.png" width="45%">
+  <img src="./assets/02.png" width="45%">
+</p>
 ---
 
 ## 🧑‍💻 팀 정보
@@ -67,7 +67,6 @@
 **팀명:** SMWU Project 6조  
 **개발 환경:** Streamlit, AWS SageMaker, PyTorch, Altair
 
-> ![팀 이미지](./assets/team.png)
 
 ---
 
@@ -84,8 +83,7 @@
 
 ```bash
 # 저장소 클론
-git clone https://github.com/your-org/smart-factory-energy-dashboard.git
-cd smart-factory-energy-dashboard
+git clone https://github.com/Ssunsooo/AWS-project
 
 # 가상환경 설정
 python -m venv venv
